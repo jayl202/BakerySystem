@@ -1,0 +1,34 @@
+<object-stream>
+  <com.example.semster1assignment1.FunkyList>
+    <head>
+      <contents class="com.example.semster1assignment1.BakedGood">
+        <goodName>Bread</goodName>
+        <goodOrigin>Spain</goodOrigin>
+        <goodDescription>Cool</goodDescription>
+        <goodImage>URL</goodImage>
+        <recipeList>
+          <head>
+            <contents class="com.example.semster1assignment1.Recipe">
+              <ingredient1>Eggs</ingredient1>
+              <ingredient2>Flour</ingredient2>
+              <ingredient3>Milk</ingredient3>
+              <quantity>100g</quantity>
+              <ingredientList>
+                <head>
+                  <contents class="com.example.semster1assignment1.Ingredient">
+                    <name>Eggs</name>
+                    <description>Yolky</description>
+                    <calories>50g</calories>
+                  </contents>
+                </head>
+                <last reference="../head"/>
+              </ingredientList>
+            </contents>
+          </head>
+          <last reference="../head"/>
+        </recipeList>
+      </contents>
+    </head>
+    <last reference="../head"/>
+  </com.example.semster1assignment1.FunkyList>
+</object-stream>
